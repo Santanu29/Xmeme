@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <title>XMeme</title>
+</head>
+
+<body>
+    <div class="header">
+        <h1>XMeme</h1>
+        <button type="button" class="submit">Submit</button>
+        <button type="button" class="about">About Me</button>
+    </div>
+    <br>
+
+    <div class="form">
+        <form action="#">
+            <label for="" class="close_btn">x</label>
+            <div>
+                <label for="name">Name:</label> <br>
+                <input type="text" id="name_field" name="username" required> <br>
+            </div>
+            <div>
+                <label for="caption">Caption:</label> <br>
+                <input type="text" id="caption_field" name="image_caption" required> <br>
+            </div>
+            <div>
+                <label for="url">URL:</label> <br>
+                <input type="url" id="url_field" name="meme_url" required>
+            </div>
+            <div class="form_submit">
+                <input type="submit">
+            </div>
+        </form>
+    </div>
+
+    <section class="container">
+        <div class="scroll-container">
+            <div class="single-meme">
+                <div class="text-info">
+                    <h3>Image</h3>
+                    <p>This is a meme</p>
+                </div>
+                <img src="https://pbs.twimg.com/media/EheSyRVU0AIKCKU.png" alt="">
+            </div>
+
+            <div class="single-meme">
+                <div class="text-info">
+                    <h3>Image</h3>
+                    <p>This is a meme</p>
+                </div>
+                <img src="https://pbs.twimg.com/media/EheSyRVU0AIKCKU.png" alt="">
+            </div>
+
+            <div class="single-meme">
+                <div class="text-info">
+                    <h3>Image</h3>
+                    <p>This is a meme</p>
+                </div>
+                <img src="https://pbs.twimg.com/media/EheSyRVU0AIKCKU.png" alt="">
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer>
+        <p>XMeme is a meme sharing website where anyone can submit memes through URL. This is a project made for <a
+                href="https://www.crio.do/">Crio.do</a> - Winter of Doing.</p>
+    </footer>
+
+</body>
+
+</html>
